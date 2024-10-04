@@ -1,0 +1,124 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\ibrah\\OneDrive\\Desktop\\learn-playwright\\playwright.config.ts",
+    "rootDir": "C:/Users/ibrah/OneDrive/Desktop/learn-playwright",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "JsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/ibrah/OneDrive/Desktop/learn-playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/ibrah/OneDrive/Desktop/learn-playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/record.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.47.2",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\record.test.ts",
+      "file": "tests/record.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 12646,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-01T20:07:43.948Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ibrah\\OneDrive\\Desktop\\learn-playwright\\test-results\\tests-record-test\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ibrah\\OneDrive\\Desktop\\learn-playwright\\test-results\\tests-record-test\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b81850ba3102cd63a11-bd47731fe808a4e81d4e",
+          "file": "tests/record.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-10-01T20:07:42.627Z",
+    "duration": 16665.401,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
